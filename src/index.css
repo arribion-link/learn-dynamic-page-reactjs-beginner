@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(239, 239, 239);
+  font-family: monospace;
+}
+
+.nav{
+  background-color: white;
+  padding: 1em;
+}
+
+.logo{
+  color: dodgerblue;
+  font-size: 1.4em;
+}
+
+
+.blog-container{
+  margin: 5em auto;
+  /* background-color: gray; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-card{
+  padding: 1em;
+  min-height: 4em;
+  background-color: white;
+  /* box-shadow: 1px 1px 10em gray; */
+  margin: 1em;
+  max-width: 30em;
+  transition: transform 1s;
+}
+
+.blog-card:hover{
+  transform: scale(1.01);
+}
+
+.blog-card h4{
+  color: black;
+  font-size: 1.4em;
+  padding-bottom: 0.6em;
+}
+
+.blog-card p{
+  color: gray;
+}
+
+.blog-card .span{
+  /* background-color: dodgerblue; */
+  margin-top: 1em;
+}
+
+/* DETAILS PAGE */
+
+.details-container{
+  margin: 5em;
+  max-width: 50em;
+}
