@@ -37,8 +37,8 @@ const BlogDetails = () => {
 
   return (
     <section>
-      /* The code snippet you provided is part of a React component called `BlogDetails`. This portion
-      of the code is responsible for rendering the details of a specific blog item on the webpage. */
+      {/* /* The code snippet you provided is part of a React component called `BlogDetails`. This portion
+      of the code is responsible for rendering the details of a specific blog item on the webpage. */ }
       <div className="details-container">
         <div>
           <p>
