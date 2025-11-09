@@ -1,3 +1,5 @@
+// USED Mintlify Doc Writer VSCODE extension for Docs
+
 /* The line `import blogData from "../data/blog.js"` is importing data from a JavaScript module located
 at "../data/blog.js". This data is likely an array of blog objects that contain information such as
 title, excerpt, author, and date for each blog post. This imported data is then used in the `Home`
